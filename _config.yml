@@ -5,6 +5,11 @@ url: https://sandrain.github.io
 sass:
   sass_dir: /assets/_sass
   style: :compressed
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 collections:
   - features
 exclude:
@@ -13,3 +18,12 @@ exclude:
   - README.md
   - LICENSE.txt
   - CNAME
+
+scholar:
+  locale: en
+  sort_by: year
+  order: descending,descending
+  source: _bibliography
+  bibliography: publications
+#  group_by: year
+#  group_order: descending
