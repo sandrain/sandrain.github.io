@@ -1,0 +1,24 @@
+---
+---
+
+<!-- {{ reference }} -->
+
+<p>
+{{ entry.author }},
+{% if entry.doi %}<a href="https://doi.org/{{ entry.doi }}">{% endif %}
+  <u><i>"{{ entry.title }},"</i></u>
+{% if entry.doi %} </a>{% endif %}
+
+{% if entry.journal %}
+{{ entry.journal}},
+Volume {{ entry.volume }}, 
+Issue {{entry.number}},
+pp. {{ entry.pages}},
+{{ entry.year }}
+{% endif %}
+
+{% if entry.booktitle %}
+{{ entry.booktitle }}
+{% endif %}
+</p>
+

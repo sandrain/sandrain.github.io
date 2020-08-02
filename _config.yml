@@ -3,16 +3,20 @@ description: Hyogi Sim's personal website
 sitename: Hyogi Sim
 baseurl: ''
 url: https://sandrain.github.io
+
 sass:
   sass_dir: /assets/_sass
   style: :compressed
+
 defaults:
   - scope:
       path: "assets/img"
     values:
       image: true
+
 collections:
   - features
+
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -26,5 +30,8 @@ scholar:
   order: descending,descending
   source: _bibliography
   bibliography: publications
+  bibliography_template: bib
+  repository: assets/papers
+#  style: assets/bibliography/ieee-with-url.csl
 #  group_by: year
 #  group_order: descending
