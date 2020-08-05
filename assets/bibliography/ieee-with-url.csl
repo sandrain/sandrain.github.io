@@ -81,7 +81,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
-      <name and="text" et-al-min="7" et-al-use-first="1" initialize-with=". "/>
+      <name and="text" et-al-min="50" et-al-use-first="1"/>
       <label form="short" prefix=", " text-case="capitalize-first"/>
       <et-al font-style="italic"/>
       <substitute>
@@ -239,7 +239,7 @@
               <text macro="locators"/>
               <text macro="page"/>
               <text macro="issued"/>
-              <text macro="doi" suffix="."/>
+              <!-- <text macro="doi" suffix="."/> -->
             </group>
           </if>
           <else-if type="paper-conference">
@@ -249,7 +249,7 @@
               <text macro="issued"/>
               <text macro="locators"/>
               <text macro="page"/>
-              <text macro="doi"/>
+              <!-- <text macro="doi"/> -->
             </group>
           </else-if>
           <else-if type="report">
@@ -334,13 +334,15 @@
             </group>
           </else>
         </choose>
+        <!--
         <choose>
           <if variable="URL">
             <text value=" [Online]"/>
           </if>
         </choose>
+        -->
       </group>
-      <text macro="access"/>
+      <!-- <text macro="access"/> -->
     </layout>
   </bibliography>
 </style>
