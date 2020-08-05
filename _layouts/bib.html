@@ -1,24 +1,10 @@
 ---
 ---
 
-<!-- {{ reference }} -->
-
-<p>
-{{ entry.author }},
-{% if entry.doi %}<a href="https://doi.org/{{ entry.doi }}">{% endif %}
-  <u><i>"{{ entry.title }},"</i></u>
-{% if entry.doi %} </a>{% endif %}
-
-{% if entry.journal %}
-{{ entry.journal}},
-Volume {{ entry.volume }}, 
-Issue {{entry.number}},
-pp. {{ entry.pages}},
-{{ entry.year }}
+{{ reference }}
+{% if entry.url %}
+<a href="{{ entry.url }}" target="_blank">
+<i class='fa fa-file-pdf-o'></i>
+</a>
 {% endif %}
-
-{% if entry.booktitle %}
-{{ entry.booktitle }}
-{% endif %}
-</p>
 
