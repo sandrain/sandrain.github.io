@@ -63,4 +63,16 @@ main {
       }
     }
   }
+
+	a[aria-expanded=true] .fa-chevron-circle-right {
+	  transition: .3s transform ease-in-out;
+	  transform: rotate(90deg);
+	}
+
+	a[aria-expanded=false] .fa-chevron-circle-right {
+	  transition: .3s transform ease-in-out;
+	  transform: rotate(0deg);
+	}
+
 }
+
