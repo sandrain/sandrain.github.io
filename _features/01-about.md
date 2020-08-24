@@ -5,12 +5,11 @@ heading: About
 subheading:
 ---
 
-Hello! My name is **Hyogi Sim**, and I am an HPC Systems Engineer 
+Hello! My name is **Hyogi Sim**. I am a HPC Systems Engineer 
 in the [Technology Integration Group](https://techint.nccs.gov/)
 under [National Center for Computational Sciences](https://www.olcf.ornl.gov/tag/nccs/)
 (NCCS) at [Oak Ridge National Laboratory](https://www.ornl.gov/).
-I am designing and developing 
-softwares for file and storage systems that serve
+I design and develop softwares for file and storage systems that serve
 large-scale HPC systems like
 [Titan](https://www.olcf.ornl.gov/olcf-resources/compute-systems/titan/)
 and [Summit](https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/).
