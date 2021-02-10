@@ -26,7 +26,7 @@ exclude:
 
 scholar:
   locale: en
-  sort_by: year
+  sort_by: year,month
   order: descending,descending
   source: _bibliography
   bibliography: publications
