@@ -1,3 +1,33 @@
+@inproceedings{10.1145/3458817.3476201,
+author = {Zhang, Wei and Byna, Suren and Sim, Hyogi and Lee, Sangkeun and Vazhkudai, Sudharshan and Chen, Yong},
+title = {Exploiting User Activeness for Data Retention in HPC Systems},
+year = {2021},
+isbn = {9781450384421},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3458817.3476201},
+doi = {10.1145/3458817.3476201},
+abstract = {HPC systems typically rely on the fixed-lifetime (FLT) data retention strategy, which
+only considers temporal locality of data accesses to parallel file systems. However,
+our extensive analysis based on the leadership-class HPC system traces suggests that
+the FLT approach often fails to capture the dynamics in users' behavior and leads
+to undesired data purge. In this study, we propose an activeness-based data retention
+(ActiveDR) solution, which advocates considering the data retention approach from
+a holistic activeness-based perspective. By evaluating the frequency and impact of
+users' activities, ActiveDR prioritizes the file purge process for inactive users
+and rewards active users with extended file lifetime on parallel storage. Our extensive
+evaluations based on the traces of the prior Titan supercomputer show that, when reaching
+the same purge target, ActiveDR achieves up to 37% file miss reduction as compared
+to the current FLT retention methodology.},
+booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+articleno = {102},
+numpages = {14},
+keywords = {data management, storage tiering, purge policy, user behavior, storage resource management, data retention},
+location = {St. Louis, Missouri},
+series = {SC '21}
+}
+
+
 @article{202106:10.1109/ACCESS.2021.3087502,
   author={Khan, Awais and Sim, Hyogi and Vazhkudai, Sudharshan S. and Kim, Youngjae},
   journal={IEEE Access},
