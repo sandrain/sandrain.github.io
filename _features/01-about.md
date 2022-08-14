@@ -5,8 +5,8 @@ heading: About
 subheading:
 ---
 
-HPC Systems/Storage Research and Development.
+Storage/HPC/Distributed Systems
 
-* Senior Software Engineer, DataDirect Networks (DDN) Storage.
+* Principal Systems Performance Engineer, Micron Technology.
 * PhD candidate, Department of Computer Science at Virginia Tech.
 
